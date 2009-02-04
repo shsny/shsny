@@ -33,7 +33,7 @@ install: $(INSTALLED_FILES)
 build: $(WANTED_FILES)
 
 dist: $(INSTALLED_FILES)
-	ftpsync -n -p $(INSTALL_DIRECTORY) ftp://$(FTP_USER):$(FTP_PASS)@$(FTP_HOST)/$(FTP_DIR)
+	./ftpsync -n -p $(INSTALL_DIRECTORY) ftp://$(FTP_USER):$(FTP_PASS)@$(FTP_HOST)/$(FTP_DIR)
 
 show_ht:
 	@echo $(HT_FILES)
