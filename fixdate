@@ -1,0 +1,19 @@
+#! /usr/bin/perl -wpi
+
+use strict;
+
+# # everything is no good
+# s|(<a href="\d\d\d\d-\d\d.html">)(\d+/\d\d)</a>|<!-- $1 -->$2<!-- </a> -->|g;
+
+# # convert back 2003
+# s|<!-- (<a href="2003-\d\d.html">) -->(\d+/\d\d)<!-- </a> -->|$1$2</a>|g;
+
+# # convert back 2002-1.
+# s|<!-- (<a href="2002-1\d.html">) -->(\d+/\d\d)<!-- </a> -->|$1$2</a>|g;
+
+# # 2002-10 is no good
+# s|(<a href="2002-10.html">)(\d+/\d\d)</a>|<!-- $1 -->$2<!-- </a> -->|g;
+
+s|<!-- (<a href="2002-...html">) -->(\d+/\d\d)<!-- </a> -->|$1$2</a>|g;
+
+# eof

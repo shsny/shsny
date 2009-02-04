@@ -1,0 +1,20 @@
+#! /usr/bin/perl -w -015
+
+use strict;
+
+while (<>)
+{
+    chomp;
+    s/\320/&mdash;/g;
+    s/\325/'/g;
+    s/\322|\323/"/g;
+    s/\215/&ccedil;/g;
+
+    s|&mdash; (\d+)/(\d+)|&mdash;<a href="19$2-$1.html">$1/$2</a>|g;
+    s/"190(\d)-/"200$1-/;
+    s/-(\d)\.html/-0$1.html/;
+
+    print "$_\n";
+}
+
+# eof

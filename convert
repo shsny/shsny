@@ -1,0 +1,38 @@
+#! /usr/bin/perl -w -015
+
+use strict;
+
+print "Title: PIQUE\n";
+print "Author: editor\@shsny.org\n";
+print "Links: pique/links.h\n";
+print "\n";
+
+my $domain = qr/[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)+/;
+
+my $ignore = 1;
+
+while (<>)
+{
+    chomp;
+    s|wwwhumanist.com|www.shsny.org|g;
+    s|nyhumanist|shsny|g;
+    s|([a-zA-Z0-9]+\@$domain)|<a href="mailto:$1">$1</a>|g;
+    s|(http://$domain([/a-zA-Z0-9_.]*[/a-zA-Z0-9_])?)|<a href="$1">$1</a>|g;
+    if ($ignore)
+    {
+	$ignore = 0 if /BODY/;
+    }
+    else
+    {
+	if (/<\/BODY>/)
+	{
+	    $ignore = 1;
+	}
+	else
+	{
+	    print "$_\n";
+	}
+    }
+}
+
+# eof
