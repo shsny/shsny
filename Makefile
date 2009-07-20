@@ -24,8 +24,9 @@ HT2HTML := python ./ht2html-2.0/ht2html.py -r '' -s $(GENERATOR)
 HT_FILES := $(shell find . -name '*.ht' | sed 's|\./||g')
 HTML_FILES := $(HT_FILES:.ht=.html)
 DOC_FILES := $(shell find . -name '*.doc' | sed 's|\./||g')
+PDF_FILES := $(shell find . -name '*.pdf' | sed 's|\./||g')
 
-WANTED_FILES := $(HTML_FILES) $(DOC_FILES)
+WANTED_FILES := $(HTML_FILES) $(DOC_FILES) $(PDF_FILES)
 INSTALLED_FILES := $(patsubst %,$(INSTALL_DIRECTORY)/%,$(WANTED_FILES))
 
 install: $(INSTALLED_FILES)
