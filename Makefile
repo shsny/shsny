@@ -14,7 +14,7 @@ FTP_PASS := Yfp6pwKm
 FTP_HOST := shsny.org
 FTP_DIR  := /
 
-INSTALL_DIRECTORY := /Library/WebServer/Documents
+INSTALL_DIRECTORY := ../install
 
 $(INSTALL_DIRECTORY)/%: %
 	install -p -m 0644 $< $@
