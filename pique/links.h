@@ -2,9 +2,9 @@
 
 <h3>Indexes</h3>
 
-<li><a href="IndexIssues.pdf">Index By Issue</a>
-<li><a href="IndexAuthors.pdf">Index By Author</a>
-<li><a href="IndexSubjects.pdf">Index By Subject</a>
+<li><a href="IndexIssues.pdf">Index By Issue <img src="../icons/tiny-pdf-icon.gif" alt="pdf" height"=17" width="17"/></a>
+<li><a href="IndexAuthors.pdf">Index By Author <img src="../icons/tiny-pdf-icon.gif" alt="pdf" height"=17" width="17"/></a>
+<li><a href="IndexSubjects.pdf">Index By Subject <img src="../icons/tiny-pdf-icon.gif" alt="pdf" height"=17" width="17"/></a>
 
 <h3>Other Sites</h3>
 <li><a href="http://www.secularhumanism.org/">Council for Secular Humanism</a>
