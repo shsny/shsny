@@ -1,14 +1,14 @@
 <!-- -*- html -*- -->
 <h3>Other Sites</h3>
 <li><a href="http://www.secularhumanism.org/">Council for Secular Humanism</a>
-<li><a href="http://www.cfimetrony.org/">CFI-MetroNY</a>
-<li><a href="http://nyhumanist.org/cfi_long_island.htm">Long Island Secular Humanists</a>
-<li><a href="http://w.humanistnews.blogspot.com/">Humanist News Weblog</a>
+<li><a href="http://www.centerforinquiry.net/nyc">Center for Inquiry - New York City</a>
+<li><a href="http://www.centerforinquiry.net/li">Center for Inquiry - Long Island</a>
 <li><a href="http://www.humaniststudies.org/">Institute for Humanist Studies</a>
 <li><a href="http://www.au.org/">Americans United for Separation of Church and State</a>
 <li><a href="http://www.atheists.org/">American Atheists</a>
 <li><a href="http://nyc-atheists.org/">NYC Atheists</a>
 <li><a href="http://www.americanhumanist.org/">American Humanist Association</a>
+<li><a href="http://citycongregation.org/">The City Congregation for Humanistic Judaism</a>
 <li><a href="http://www.freethoughtaction.org/">Free Thought Action</a>
 <li><a href="http://www.infidelguy.com/">The Infidel Guy</a>
 <li><a href="http://www.rationallyspeaking.org/">Rationally Speaking</a>
