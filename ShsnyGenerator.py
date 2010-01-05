@@ -52,7 +52,10 @@ class ShsnyGenerator(Skeleton, Sidebar, Banner):
         rootdir = self.__linkfixer.rootdir()
         return '''
 <center>
-    <a href="%(rootdir)s/index.html"><b>SHSNY</b></a></center>''' \
+    <a href="%(rootdir)s/index.html">
+      <img src="%(rootdir)s/SHSNY.gif" alt="SHSNY Main Page" width=113 height=86/>
+    </a>
+</center>''' \
     % self.__d
 
     def get_corner_bgcolor(self):
