@@ -21,6 +21,7 @@ sitelinks = [
     ('%(rootdir)s/member.html',         'Membership'),
     ('%(rootdir)s/affirmations.html',   'Affirmations of Humanism'),
     ('%(rootdir)s/contact.html',        'Contact Us'),
+    ('%(rootdir)s/search.html',         'Search the Website'),
     ]
 
 
