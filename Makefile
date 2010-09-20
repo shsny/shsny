@@ -21,8 +21,9 @@ $(INSTALL_DIRECTORY)/%: %
 
 HT2HTML := python ./ht2html-2.0/ht2html.py -r '' -s $(GENERATOR)
 
+HTML_EXTRA_FILES := PayFreeThought.html
 HT_FILES := $(shell find . -name '*.ht' | sed 's|\./||g')
-HTML_FILES := $(HT_FILES:.ht=.html)
+HTML_FILES := $(HT_FILES:.ht=.html) $(HTML_EXTRA_FILES)
 DOC_FILES := $(shell find . -name '*.doc' | sed 's|\./||g')
 PDF_FILES := $(shell find . -name '*.pdf' | sed 's|\./||g')
 ICON_FILES := $(shell find . -name '*.gif' | sed 's|\./||g')
