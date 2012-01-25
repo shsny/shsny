@@ -24,6 +24,21 @@ Golden Unicorn Restaurant - <a href="http://g.co/maps/vtfb9">18 East Broadway</a
 
 <p/>
 
+Cost for the evening, all-inclusive: $50 per person, cash bar.
+
+<br/>
+
+Use your PayPal account or your credit card.
+
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="YUNXFLKJ6M7K8">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+<p/>
+
 Highlights of the evening: 
 
 <ul>
@@ -55,43 +70,26 @@ year!
 
 <p/>
 
-Cost for the evening, all-inclusive: $50 per person.
-
-<p/>
-
-Cash bar.
-
-<p/>
-
 <i><b>Pre-Payment is a must.</b></i>
 
 <p/>
-
-Use your PayPal account or your credit card.
-
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="YUNXFLKJ6M7K8">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
 
 Questions? Call 212-308-2165, and leave a call-back number.
 
 <hr/>
 
-<h2>Videos</h2>
+<!-- <h2>Videos</h2> -->
 
-Visit the <a href="Freethought2011">2011 Freethought Day page</a> to
-see video highlights of guest speaker Harold Hudson Channer, a star of
-cable TV in New York for almost four decades.
+<!-- Visit the <a href="Freethought2011">2011 Freethought Day page</a> to -->
+<!-- see video highlights of guest speaker Harold Hudson Channer, a star of -->
+<!-- cable TV in New York for almost four decades. -->
 
-<p/>
+<!-- <p/> -->
 
-Visit the <a href="DarwinDay">2011 Darwin Day page</a> to see its
-entire video celebration, including the dumbth award.
+<!-- Visit the <a href="DarwinDay">2011 Darwin Day page</a> to see its -->
+<!-- entire video celebration, including the dumbth award. -->
 
-<hr/>
+<!-- <hr/> -->
 
 <h2>Calendar of Events</h2>
 
