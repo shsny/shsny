@@ -35,8 +35,11 @@ install: $(INSTALLED_FILES)
 
 build: $(WANTED_FILES)
 
-dist: $(INSTALLED_FILES)
+dist_1and1: $(INSTALLED_FILES)
 	./ftpsync -n -p $(INSTALL_DIRECTORY) ftp://$(FTP_USER):$(FTP_PASS)@$(FTP_HOST)/$(FTP_DIR)
+
+dist_s3: $(INSTALLED_FILES)
+	./s3cmd -v sync ../install/. s3://www.shsny.org
 
 show_ht:
 	@echo $(HT_FILES)
