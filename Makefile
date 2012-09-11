@@ -35,6 +35,8 @@ install: $(INSTALLED_FILES)
 
 build: $(WANTED_FILES)
 
+dist: dist_1and1 dist_s3
+
 dist_1and1: $(INSTALLED_FILES)
 	./ftpsync -n -p $(INSTALL_DIRECTORY) ftp://$(FTP_USER):$(FTP_PASS)@$(FTP_HOST)/$(FTP_DIR)
 
