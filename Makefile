@@ -9,11 +9,6 @@ GENERATOR := ShsnyGenerator
 %.html: %.ht $(GENERATOR).py links.h pique/links.h
 	$(HT2HTML) $<
 
-FTP_USER := u36370209
-FTP_PASS := Yfp6pwKm
-FTP_HOST := shsny.org
-FTP_DIR  := /
-
 INSTALL_DIRECTORY := ../install
 
 $(INSTALL_DIRECTORY)/%: %
@@ -35,10 +30,7 @@ install: $(INSTALLED_FILES)
 
 build: $(WANTED_FILES)
 
-dist: dist_1and1 dist_s3
-
-dist_1and1: $(INSTALLED_FILES)
-	./ftpsync -n -p $(INSTALL_DIRECTORY) ftp://$(FTP_USER):$(FTP_PASS)@$(FTP_HOST)/$(FTP_DIR)
+dist: dist_s3
 
 dist_s3: $(INSTALLED_FILES)
 	./s3cmd -c ~/.s3cfg.shsny -v sync ../install/. s3://shsny.org
