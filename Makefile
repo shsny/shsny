@@ -22,8 +22,9 @@ HTML_FILES := $(HT_FILES:.ht=.html) $(HTML_EXTRA_FILES)
 DOC_FILES := $(shell find . -name '*.doc' | sed 's|\./||g')
 PDF_FILES := $(shell find . -name '*.pdf' | sed 's|\./||g')
 ICON_FILES := $(shell find . -name '*.gif' | sed 's|\./||g')
+PIX_FILES := $(shell find . -name '*.jpg' | sed 's|\./||g')
 
-WANTED_FILES := $(HTML_FILES) $(DOC_FILES) $(PDF_FILES) $(ICON_FILES)
+WANTED_FILES := $(HTML_FILES) $(DOC_FILES) $(PDF_FILES) $(ICON_FILES) $(PIX_FILES)
 INSTALLED_FILES := $(patsubst %,$(INSTALL_DIRECTORY)/%,$(WANTED_FILES))
 
 install: $(INSTALLED_FILES)
