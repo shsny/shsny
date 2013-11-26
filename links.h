@@ -6,6 +6,9 @@
 <li><a href="http://states.secular.org/states/new-york">Secular Coalition for New York</a>
 <li><a href="https://www.facebook.com/SecularCoalitionNY">Secular Coalition for NY Community Page</a>
 <li><a href="http://secular.org/">Secular Coalition for America</a>
+<li><a href="http://www.atheistalliance.org/">Atheist Alliance International</a>
+<li><a href="http://www.reasonablenewyork.org/">Reasonable New York</a>
+<li><a href="http://www.feministfreethinkers.org/">Feminist Freethinkers of New York</a>
 <li><a href="http://www.secularhumanism.org/">Council for Secular Humanism</a>
 <li><a href="http://www.humanistinstitute.org/">The Humanist Institute</a>
 <li><a href="http://www.centerforinquiry.net/nyc">Center for Inquiry - New York City</a>
