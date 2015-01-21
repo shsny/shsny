@@ -2,7 +2,7 @@
 
 # $Id: Makefile,v 1.5 2007/03/07 22:32:06 colin Exp $
 
-all: install
+all: dist_assets
 
 GENERATOR := ShsnyGenerator
 
@@ -35,6 +35,9 @@ dist: dist_s3
 
 dist_s3: $(INSTALLED_FILES)
 	./s3cmd -c ~/.s3cfg.shsny -v sync ../install/. s3://shsny.org
+
+dist_assets:
+	./s3cmd -c ~/.s3cfg.shsny -v sync assets/. s3://assets.shsny.org
 
 show_ht:
 	@echo $(HT_FILES)
